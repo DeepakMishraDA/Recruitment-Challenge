@@ -8,6 +8,7 @@ The 'conversions_backend' table is exactly the same as the 'conversions' table i
 Often there are external data sources (for instance for marketing costs) that come into play. In this case, there is one external data source api_adwords_costs table. This table contains per day and AdWords campaign ID the costs that Company X paid for running this ad. The campaign_id here links to the campaign_id in the 'session_sources' table.
 
 <h1> Tables in the challenge.db file </h1>
+
 * session_sources:
     * *session_id*: unique identifier of this session
     * *user_id*: user identifier
