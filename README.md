@@ -1,5 +1,5 @@
 # SQL-Recruitment-Challenge-
-This Sql chanllenge is a part of HAMS Data Quality Engineer Challenge (https://github.com/haensel-ams/recruitment_challenge/blob/master/Data_Quality_202108/README.md#tables-in-the-challengedb-file):
+This Sql challenge is a part of HAMS Data Quality Engineer Challenge (https://github.com/haensel-ams/recruitment_challenge/blob/master/Data_Quality_202108/README.md#tables-in-the-challengedb-file):
 
 The data belongs to a company called Company X and contains information of e-commerce purchases that were made with Company X. Each purchase (in 'conversions' table) has a certain revenue attached to it and was made by a given user ('user_id'). In the 'session_souces' table you can find information of what sessions (a session is a set of events) happened on the company's website. Every user who made a conversion, had multiple sessions prior to this purchase which make up his customer journey. The link between conversions and those sessions is made via the 'attribution_customer_journey' table where for each conv_id from the 'conversions' table, you can find all sessions that belong to this customer journey.
 
